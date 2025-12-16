@@ -2,9 +2,9 @@
 
 # Uma cadeia de texto é uma string e, no python, fica entre aspas simples '' ou aspas duplas "". 
 
-# frase = 'Python', mas o que ocorre é o que acontece em linguagem C,isto é, é separado em um vetor de caracteres, de modo que cada letra fica alocada emuma posição contígua da memória
+# frase = 'Python', mas o que ocorre é o que acontece em linguagem C,isto é, é separado em um vetor de caracteres, de modo que cada letra fica alocada em uma posição contígua da memória
 
-# --- ATIAMENTO ---
+# --- FATIAMENTO ---
 
 # frase[3] --> mostra apenas o caractere da posição de índice 3 do vetor. 
 # frase[2:5] --> pega da posição de índice 2 até a posição de índice 5-1 (uma a abaixo da posição final indicada).
@@ -18,7 +18,7 @@
 # len(frase) --> conta a quantidade de caracteres que tem no "vetor".
 # frase.count('o') --> conta quantas vezes aparece a letra "o" na frase.
 # frase.count('o', 0, 13) --> conta quantos "o" aparecem, mas já está considerando um fatiamento que começa em 0 e vai até o 13-1.
-# frase.find('deo') --> conta quantas vezes foi encontrado o "deo" na frase, e mostra a posição que começa o subfrase. Caso não tenha a substring na string, é retornado o valor -1.
+# frase.find('deo') --> conta quantas vezes foi encontrado o "deo" na frase, e mostra a posição que começa a subfrase. Caso não tenha a substring na string, é retornado o valor -1.
 # 'Python' in frase --> Indica se é verdadeiro ou falso, isto é, se a string 'Python' está ou não na frase. 
 
 # --- TRANSFORMAÇÃO ---
