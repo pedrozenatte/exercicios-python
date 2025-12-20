@@ -12,3 +12,8 @@ for i in range(1, 500 + 1):
             soma += i
 
 print('Soma: {}' .format(soma))
+
+# Programa mais otimizado
+# for i in range(1, 500 + 1, 2): # Já garante apenas os ímpares
+#     if i % 3 == 0:
+#         soma += i

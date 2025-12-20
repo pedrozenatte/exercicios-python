@@ -11,3 +11,10 @@ for i in range(1, 51):
         print('{} é Par' .format(i))
 
 print('Entre 1 a 50 temos {} números pares' .format(contador))
+
+# Podemos diminuir as iterações:
+# for i in range(2, 51, 2):
+#     print(n, end = '')
+# print('Acabou!')
+
+# Deixamos o programa mais rápido ocupando metade do tempo do processador
