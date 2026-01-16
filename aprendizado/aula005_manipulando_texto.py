@@ -28,6 +28,7 @@
 # frase.lower() --> faz o contrário do upper. 
 # frase.capitalize() --> pega tudo, deixa em minúsculo, e depois coloca apenas a primeira letra da string total como maiúsculo.
 # frase.title() --> pega tudo, deixa em minúsculo, e depois aplica o capitalize() para cada palavra, ou seja, cada palavra da string terá a primeira letra como maiúsculo.
+# frase.replace(antigo, novo) --> procura todas as ocorrências de "antigo" e troca por "novo" retornando uma nova string, sem modificar a original. 
 
 # Vamos supor: frase =    Aprendendo Python     
 # frase.strip() --> Remove todos os espaços inúteis, isto é, os espaçamentos no início e no final que estão atoa.
