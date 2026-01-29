@@ -1,3 +1,5 @@
+# Python é uma linguagem de alto nível, o que significa que é otimizado para que as pessoas, ao invés das máquinas, possam ler.
+
 # Só pra não dar azar
 print('Olá, Mundo!')
 
